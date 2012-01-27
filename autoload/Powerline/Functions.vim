@@ -48,3 +48,15 @@ function! Powerline#Functions#GetPwd() "{{{
 
 	return pwd
 endfunction " }}}
+function! Powerline#Functions#GetCharCode() " {{{
+	let tmp = @a
+	redir @a
+	exec ':silent! ascii'
+	redir END
+	if -1 < match(@a, 'NUL')
+		let @a = tmp
+		return 'NUL'
+	endif
+	let hex = substitute(@a, '\v^.* (\S+),[^,]+$', '\1', '')
+	return hex
+endfunction "}}}
