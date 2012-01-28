@@ -58,5 +58,6 @@ function! Powerline#Functions#GetCharCode() " {{{
 		return 'NUL'
 	endif
 	let hex = substitute(@a, '\v^.* (\S+),[^,]+$', '\1', '')
+	let @a = tmp
 	return hex
 endfunction "}}}
