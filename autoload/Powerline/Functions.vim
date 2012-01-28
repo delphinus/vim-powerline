@@ -57,7 +57,9 @@ function! Powerline#Functions#GetCharCode() " {{{
 		let @a = tmp
 		return 'NUL'
 	endif
-	let hex = substitute(@a, '\v^.* (\S+),[^,]+$', '\1', '')
+	let info = split(@a, ',\s\+')
 	let @a = tmp
-	return hex
+	let char = matchstr(info[0], '<\zs.*\ze>')
+	let hex = matchstr(info[1], '[0-9a-f]*$')
+	return '''' . char . ''' ' . hex
 endfunction "}}}
