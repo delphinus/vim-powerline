@@ -3,6 +3,7 @@ let g:Powerline#Themes#distinguished#theme = Pl#Theme#Create(
 		\ , 'mode_indicator'
 		\ , 'fugitive:branch'
 		\ , 'fileinfo'
+		\ , 'pwd'
 		\ , 'syntastic:errors'
 		\ , Pl#Segment#Truncate()
 		\ , 'cfi:current_function'
