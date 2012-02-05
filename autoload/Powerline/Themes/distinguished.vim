@@ -3,11 +3,11 @@ let g:Powerline#Themes#distinguished#theme = Pl#Theme#Create(
 		\ , 'mode_indicator'
 		\ , 'fugitive:branch'
 		\ , 'fileinfo'
-		\ , 'pwd'
 		\ , 'syntastic:errors'
 		\ , Pl#Segment#Truncate()
 		\ , 'cfi:current_function'
 		\ , Pl#Segment#Split()
+		\ , 'tweetvim:tweetvim_say_count'
 		\ , 'charcode'
 		\ , 'fileformat'
 		\ , 'fileencoding'
@@ -77,5 +77,13 @@ let g:Powerline#Themes#distinguished#theme = Pl#Theme#Create(
 		\ , ['static_str.buffer', 'Tree']
 		\ , Pl#Segment#Truncate()
 		\ , Pl#Segment#Split()
-	\ )
+	\ ),
+	\
+	\ Pl#Theme#Buffer('tweetvim_say', ['match', 'any', [Pl#Match#Add('&ft', 'tweetvim_say')]]
+		\ , ['static_str.name', 'TweetVimSay']
+		\ , 'tweetvim_say:tweetvim_say_count'
+		\ , Pl#Segment#Truncate()
+		\ , Pl#Segment#Split()
+	\ ),
+	\
 \ )
