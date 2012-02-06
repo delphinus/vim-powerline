@@ -9,6 +9,8 @@ let g:Powerline#Themes#distinguished#theme = Pl#Theme#Create(
 		\ , Pl#Segment#Split()
 		\ , 'tweetvim:tweetvim_say_count'
 		\ , 'charcode'
+		\ , 'rvm:string'
+		\ , 'virtualenv:statusline'
 		\ , 'fileformat'
 		\ , 'fileencoding'
 		\ , 'filetype'
@@ -39,6 +41,14 @@ let g:Powerline#Themes#distinguished#theme = Pl#Theme#Create(
 	\
 	\ Pl#Theme#Buffer('ft_help'
 		\ , ['static_str.name', 'Help']
+		\ , 'filename'
+		\ , Pl#Segment#Truncate()
+		\ , Pl#Segment#Split()
+		\ , 'scrollpercent'
+	\ ),
+	\
+	\ Pl#Theme#Buffer('ft_vimpager'
+		\ , ['static_str.name', 'Pager']
 		\ , 'filename'
 		\ , Pl#Segment#Truncate()
 		\ , Pl#Segment#Split()
