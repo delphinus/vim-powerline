@@ -8,6 +8,7 @@ let g:Powerline#Themes#distinguished#theme = Pl#Theme#Create(
 		\ , 'cfi:current_function'
 		\ , Pl#Segment#Split()
 		\ , 'tweetvim:tweetvim_say_count'
+		\ , 'currhigroup'
 		\ , 'charcode'
 		\ , 'rvm:string'
 		\ , 'virtualenv:statusline'
