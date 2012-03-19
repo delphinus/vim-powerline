@@ -7,6 +7,8 @@ let g:Pl#Parser#Symbols = {
 			\ , 'FT'    : 'FT'
 			\ , 'LINE'  : 'LN'
 			\ , 'COL'   : 'C'
+			\ , 'OK'    : ''
+			\ , 'NG'    : '+'
 		\ }
 	\ },
 	\ 'unicode': {
@@ -17,6 +19,8 @@ let g:Pl#Parser#Symbols = {
 			\ , 'FT'    : [0x2691]
 			\ , 'LINE'  : [0x204b]
 			\ , 'COL'   : [0x2551]
+			\ , 'OK'    : [0x2714]
+			\ , 'NG'    : [0x2718]
 		\ },
 	\ },
 	\ 'fancy': {
@@ -27,6 +31,8 @@ let g:Pl#Parser#Symbols = {
 			\ , 'FT'    : [0x2b62, 0x2b63]
 			\ , 'LINE'  : [0x2b61]
 			\ , 'COL'   : [0x2551]
+			\ , 'OK'    : [0x2714]
+			\ , 'NG'    : [0x2718]
 		\ }
 	\ }
 \ }
