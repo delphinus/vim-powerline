@@ -12,8 +12,6 @@ let g:Powerline#Themes#default#theme = Pl#Theme#Create(
 		\ , Pl#Segment#Split()
 		\ , 'tweetvim:tweetvim_say_count'
 		\ , 'charcode'
-		\ , 'rvm:string'
-		\ , 'virtualenv:statusline'
 		\ , 'fileformat'
 		\ , 'fileencoding'
 		\ , 'filetype'
