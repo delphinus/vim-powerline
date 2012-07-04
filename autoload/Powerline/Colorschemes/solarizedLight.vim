@@ -115,7 +115,7 @@ let g:Powerline#Colorschemes#solarizedLight#colorscheme = Pl#Colorscheme#Init([
 		\ 'i': ['g10', 'darkblue', ['bold']],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['current_function', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
+	\ Pl#Hi#Segments(['currenttag', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
 		\ 'n': ['b45', 'b65'],
 		\ 'i': ['b65', 'b97'],
 		\ }),
