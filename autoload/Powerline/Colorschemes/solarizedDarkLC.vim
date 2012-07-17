@@ -23,17 +23,17 @@ call Pl#Hi#Allocate({
 	\ 'brightorange'   : 208,
 	\ 'brightestorange': 214,
 	\
-	\ 'g0'          : 233,
-	\ 'g1'          : 235,
-	\ 'g2'          : 236,
-	\ 'g3'          : 239,
-	\ 'g4'          : 240,
-	\ 'g5'          : 241,
-	\ 'g6'          : 244,
-	\ 'g7'          : 245,
-	\ 'g8'          : 247,
-	\ 'g9'          : 250,
-	\ 'g10'         : 252,
+	\ 'gray0'          : 233,
+	\ 'gray1'          : 235,
+	\ 'gray2'          : 236,
+	\ 'gray3'          : 239,
+	\ 'gray4'          : 240,
+	\ 'gray5'          : 241,
+	\ 'gray6'          : 244,
+	\ 'gray7'          : 245,
+	\ 'gray8'          : 247,
+	\ 'gray9'          : 250,
+	\ 'gray10'         : 252,
 	\ 'b15'         : [8, 0x002b36],
 	\ 'b20'         : [0, 0x073642],
 	\ 'b45'         : [10, 0x586e75],
@@ -103,9 +103,21 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ 'i': ['red'],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['current_function', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
-		\ 'n': ['b50', 'b20'],
-		\ 'i': ['b20', 'b15'],
+	\ Pl#Hi#Segments(['fileinfo.flags.modOK'], {
+		\ 'n': ['brightgreen', ['bold']],
+		\ 'N': ['mediumgreen'],
+		\ 'i': ['brightgreen', ['bold']],
+		\ }),
+	\
+	\ Pl#Hi#Segments(['tweetvim_say_count'], {
+		\ 'n': ['gray10', 'gray4', ['bold']],
+		\ 'N': ['gray7', 'gray0', ['bold']],
+		\ 'i': ['gray10', 'darkblue', ['bold']],
+		\ }),
+	\
+	\ Pl#Hi#Segments(['currenttag', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
+		\ 'n': ['b45', 'b20'],
+		\ 'i': ['b60', 'b45'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lineinfo'], {

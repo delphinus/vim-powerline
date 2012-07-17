@@ -107,7 +107,19 @@ let g:Powerline#Colorschemes#solarizedDark#colorscheme = Pl#Colorscheme#Init([
 		\ 'i': ['red'],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['current_function', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
+	\ Pl#Hi#Segments(['fileinfo.flags.modOK'], {
+		\ 'n': ['brightgreen', ['bold']],
+		\ 'N': ['mediumgreen'],
+		\ 'i': ['brightgreen', ['bold']],
+		\ }),
+	\
+	\ Pl#Hi#Segments(['tweetvim_say_count'], {
+		\ 'n': ['gray10', 'gray4', ['bold']],
+		\ 'N': ['gray7', 'gray0', ['bold']],
+		\ 'i': ['gray10', 'darkblue', ['bold']],
+		\ }),
+	\
+	\ Pl#Hi#Segments(['currenttag', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
 		\ 'n': ['b45', 'b20'],
 		\ 'i': ['b60', 'b45'],
 		\ }),
