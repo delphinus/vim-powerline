@@ -1,4 +1,4 @@
-let g:Powerline#Themes#default#theme = Pl#Theme#Create(
+let g:Powerline#Themes#custom#theme = Pl#Theme#Create(
 	\ Pl#Theme#Buffer(''
 		\ , 'paste_indicator'
 		\ , 'mode_indicator'
@@ -9,6 +9,8 @@ let g:Powerline#Themes#default#theme = Pl#Theme#Create(
 		\ , Pl#Segment#Truncate()
 		\ , 'tagbar:currenttag'
 		\ , Pl#Segment#Split()
+		\ , 'tweetvim:tweetvim_say_count'
+		\ , 'charcode'
 		\ , 'rvm:string'
 		\ , 'virtualenv:statusline'
 		\ , 'fileformat'
@@ -110,6 +112,13 @@ let g:Powerline#Themes#default#theme = Pl#Theme#Create(
 	\
 	\ Pl#Theme#Buffer('nerdtree'
 		\ , ['raw.name', '%{Powerline#Functions#GetShortPath(4)}']
+		\ , Pl#Segment#Truncate()
+		\ , Pl#Segment#Split()
+	\ ),
+	\
+	\ Pl#Theme#Buffer('tweetvim_say', ['match', 'any', [Pl#Match#Add('&ft', 'tweetvim_say')]]
+		\ , ['static_str.name', 'TweetVimSay']
+		\ , 'tweetvim_say:tweetvim_say_count'
 		\ , Pl#Segment#Truncate()
 		\ , Pl#Segment#Split()
 	\ )

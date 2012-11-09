@@ -72,6 +72,24 @@ let g:Powerline#Colorschemes#solarized#colorscheme = Pl#Colorscheme#Init([
 		\ 'i': ['base3'],
 		\ }),
 	\
+	\ Pl#Hi#Segments(['fileinfo.flags.modOK'], {
+		\ 'n': ['base3', 'base02', ['bold']],
+		\ 'N': ['green', 'base02', ['bold']],
+		\ 'i': ['base3', 'base02', ['bold']],
+		\ }),
+	\
+	\ Pl#Hi#Segments(['fileinfo.flags.modNG'], {
+		\ 'n': ['red', 'base02', ['bold']],
+		\ 'N': ['red', 'base02', ['bold']],
+		\ 'i': ['red', 'base02', ['bold']],
+		\ }),
+	\
+	\ Pl#Hi#Segments(['tweetvim_say_count'], {
+		\ 'n': ['base3', 'violet', ['bold']],
+		\ 'N': ['base00', 'violet', ['bold']],
+		\ 'i': ['base3', 'violet', ['bold']],
+		\ }),
+	\
 	\ Pl#Hi#Segments(['currenttag', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
 		\ 'n': ['base00', 'base2'],
 		\ 'i': ['base0', 'base2'],
