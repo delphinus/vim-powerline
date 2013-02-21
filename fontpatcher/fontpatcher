@@ -6,15 +6,15 @@ Creates dividers and symbols for use with Powerline. Requires FontForge with Pyt
 
 Stores glyphs in the 0080-0094 Unicode range ("Misc symbols and arrows").
 
-[0090] Branch symbol
-[0091] LN (line) symbol
-[0092] FT symbol 1
-[0093] FT symbol 2
-[0094] Padlock (closed) symbol
-[0080] Hard right arrow
-[0081] Soft right arrow
-[0082] Hard left arrow
-[0083] Soft left arrow
+[00e2] Branch symbol
+[00e3] LN (line) symbol
+[00f2] FT symbol 1
+[00f3] FT symbol 2
+[00f4] Padlock (closed) symbol
+[00c2] Hard right arrow
+[00c3] Soft right arrow
+[00d2] Hard left arrow
+[00d3] Soft left arrow
 """
 
 from __future__ import division
@@ -50,15 +50,15 @@ args = parser.parse_args()
 
 SYM_ATTR = {
 	# Right/left-aligned glyphs will have their advance width reduced in order to overlap the next glyph slightly
-	0x0090: { 'align': 'c', 'stretch': 'y' , 'overlap': False },
-	0x0091: { 'align': 'c', 'stretch': ''  , 'overlap': False },
-	0x0092: { 'align': 'r', 'stretch': ''  , 'overlap': False },
-	0x0093: { 'align': 'l', 'stretch': ''  , 'overlap': False },
-	0x0094: { 'align': 'c', 'stretch': ''  , 'overlap': False },
-	0x0080: { 'align': 'l', 'stretch': 'xy', 'overlap': True  },
-	0x0081: { 'align': 'l', 'stretch': 'xy', 'overlap': True  },
-	0x0082: { 'align': 'r', 'stretch': 'xy', 'overlap': True  },
-	0x0083: { 'align': 'r', 'stretch': 'xy', 'overlap': True  },
+	0x00e2: { 'align': 'c', 'stretch': 'y' , 'overlap': False },
+	0x00e3: { 'align': 'c', 'stretch': ''  , 'overlap': False },
+	0x00f2: { 'align': 'r', 'stretch': ''  , 'overlap': False },
+	0x00f3: { 'align': 'l', 'stretch': ''  , 'overlap': False },
+	0x00f4: { 'align': 'c', 'stretch': ''  , 'overlap': False },
+	0x00c2: { 'align': 'l', 'stretch': 'xy', 'overlap': True  },
+	0x00c3: { 'align': 'l', 'stretch': 'xy', 'overlap': True  },
+	0x00d2: { 'align': 'r', 'stretch': 'xy', 'overlap': True  },
+	0x00d3: { 'align': 'r', 'stretch': 'xy', 'overlap': True  },
 }
 
 # Open symbol font
