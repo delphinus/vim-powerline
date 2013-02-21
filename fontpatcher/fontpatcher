@@ -4,17 +4,17 @@
 
 Creates dividers and symbols for use with Powerline. Requires FontForge with Python bindings.
 
-Stores glyphs in the 2b60-2bff Unicode range ("Misc symbols and arrows").
+Stores glyphs in the 0080-0094 Unicode range ("Misc symbols and arrows").
 
-[2b60] Branch symbol
-[2b61] LN (line) symbol
-[2b62] FT symbol 1
-[2b63] FT symbol 2
-[2b64] Padlock (closed) symbol
-[2b80] Hard right arrow
-[2b81] Soft right arrow
-[2b82] Hard left arrow
-[2b83] Soft left arrow
+[0090] Branch symbol
+[0091] LN (line) symbol
+[0092] FT symbol 1
+[0093] FT symbol 2
+[0094] Padlock (closed) symbol
+[0080] Hard right arrow
+[0081] Soft right arrow
+[0082] Hard left arrow
+[0083] Soft left arrow
 """
 
 from __future__ import division
@@ -50,15 +50,15 @@ args = parser.parse_args()
 
 SYM_ATTR = {
 	# Right/left-aligned glyphs will have their advance width reduced in order to overlap the next glyph slightly
-	0x2b60: { 'align': 'c', 'stretch': 'y' , 'overlap': False },
-	0x2b61: { 'align': 'c', 'stretch': ''  , 'overlap': False },
-	0x2b62: { 'align': 'r', 'stretch': ''  , 'overlap': False },
-	0x2b63: { 'align': 'l', 'stretch': ''  , 'overlap': False },
-	0x2b64: { 'align': 'c', 'stretch': ''  , 'overlap': False },
-	0x2b80: { 'align': 'l', 'stretch': 'xy', 'overlap': True  },
-	0x2b81: { 'align': 'l', 'stretch': 'xy', 'overlap': True  },
-	0x2b82: { 'align': 'r', 'stretch': 'xy', 'overlap': True  },
-	0x2b83: { 'align': 'r', 'stretch': 'xy', 'overlap': True  },
+	0x0090: { 'align': 'c', 'stretch': 'y' , 'overlap': False },
+	0x0091: { 'align': 'c', 'stretch': ''  , 'overlap': False },
+	0x0092: { 'align': 'r', 'stretch': ''  , 'overlap': False },
+	0x0093: { 'align': 'l', 'stretch': ''  , 'overlap': False },
+	0x0094: { 'align': 'c', 'stretch': ''  , 'overlap': False },
+	0x0080: { 'align': 'l', 'stretch': 'xy', 'overlap': True  },
+	0x0081: { 'align': 'l', 'stretch': 'xy', 'overlap': True  },
+	0x0082: { 'align': 'r', 'stretch': 'xy', 'overlap': True  },
+	0x0083: { 'align': 'r', 'stretch': 'xy', 'overlap': True  },
 }
 
 # Open symbol font

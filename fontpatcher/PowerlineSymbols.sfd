@@ -49,7 +49,7 @@ BeginPrivate: 0
 EndPrivate
 BeginChars: 1114112 9
 
-StartChar: uni2B80
+StartChar: uni0080
 Encoding: 11136 11136 0
 Width: 621
 Flags: HMW
@@ -63,7 +63,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2B81
+StartChar: uni0081
 Encoding: 11137 11137 1
 Width: 621
 Flags: HMW
@@ -88,7 +88,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2B82
+StartChar: uni0082
 Encoding: 11138 11138 2
 Width: 621
 Flags: HMW
@@ -102,7 +102,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2B83
+StartChar: uni0083
 Encoding: 11139 11139 3
 Width: 621
 Flags: HMW
@@ -127,7 +127,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2B61
+StartChar: uni0091
 Encoding: 11105 11105 4
 Width: 555
 VWidth: 0
@@ -156,7 +156,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2B60
+StartChar: uni0090
 Encoding: 11104 11104 5
 Width: 676
 Flags: HMW
@@ -183,7 +183,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2B62
+StartChar: uni0092
 Encoding: 11106 11106 6
 Width: 428
 VWidth: 0
@@ -215,7 +215,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2B63
+StartChar: uni0093
 Encoding: 11107 11107 7
 Width: 428
 VWidth: 0
@@ -247,7 +247,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2B64
+StartChar: uni0094
 Encoding: 11108 11108 8
 Width: 546
 VWidth: 0
