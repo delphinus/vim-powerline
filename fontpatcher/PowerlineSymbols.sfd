@@ -50,7 +50,7 @@ EndPrivate
 BeginChars: 1114112 9
 
 StartChar: uni0080
-Encoding: 11136 11136 0
+Encoding: 128 128 0
 Width: 621
 Flags: HMW
 LayerCount: 2
@@ -64,7 +64,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0081
-Encoding: 11137 11137 1
+Encoding: 129 129 1
 Width: 621
 Flags: HMW
 LayerCount: 2
@@ -89,7 +89,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0082
-Encoding: 11138 11138 2
+Encoding: 130 130 2
 Width: 621
 Flags: HMW
 LayerCount: 2
@@ -103,7 +103,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0083
-Encoding: 11139 11139 3
+Encoding: 131 131 3
 Width: 621
 Flags: HMW
 LayerCount: 2
@@ -128,7 +128,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0091
-Encoding: 11105 11105 4
+Encoding: 145 145 4
 Width: 555
 VWidth: 0
 Flags: HMW
@@ -157,7 +157,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0090
-Encoding: 11104 11104 5
+Encoding: 144 144 5
 Width: 676
 Flags: HMW
 LayerCount: 2
@@ -184,7 +184,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0092
-Encoding: 11106 11106 6
+Encoding: 146 146 6
 Width: 428
 VWidth: 0
 Flags: HMW
@@ -216,7 +216,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0093
-Encoding: 11107 11107 7
+Encoding: 147 147 7
 Width: 428
 VWidth: 0
 Flags: HMW
@@ -248,7 +248,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0094
-Encoding: 11108 11108 8
+Encoding: 148 148 8
 Width: 546
 VWidth: 0
 Flags: HMW
